@@ -6,4 +6,4 @@
 *March, 2018*
 
 
-Computer Engineering
+Computer Engineering - UFOP, Brazil
