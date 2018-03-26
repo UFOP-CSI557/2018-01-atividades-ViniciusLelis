@@ -1,8 +1,9 @@
-# 2018-01-atividades-ViniciusLelis
+# Evolutionary Computation (UFOP-ICEA)
 
-## Evolutionary Computation (UFOP-ICEA)
+ This repository contains problems, lecture nodes and codes on Evolutionary Computation. 
 
-This repository contains problems, lecture nodes and codes on Evolutionary Computation.
+----------
+*March, 2018*
 
-March, 2018
+
 Computer Engineering
