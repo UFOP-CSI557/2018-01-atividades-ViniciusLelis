@@ -1,6 +1,6 @@
 # Evolutionary Computation (UFOP-ICEA)
 
- This repository contains problems, lecture nodes and codes on Evolutionary Computation. 
+ This repository contains problems, lecture notes and codes on Evolutionary Computation. 
 
 ----------
 *March, 2018*
