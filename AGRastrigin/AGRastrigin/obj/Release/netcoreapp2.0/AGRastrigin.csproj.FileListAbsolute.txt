@@ -1,0 +1,11 @@
+C:\Users\vinic\source\repos\AGRastrigin\AGRastrigin\bin\Release\netcoreapp2.0\AGRastrigin.deps.json
+C:\Users\vinic\source\repos\AGRastrigin\AGRastrigin\bin\Release\netcoreapp2.0\AGRastrigin.runtimeconfig.json
+C:\Users\vinic\source\repos\AGRastrigin\AGRastrigin\bin\Release\netcoreapp2.0\AGRastrigin.runtimeconfig.dev.json
+C:\Users\vinic\source\repos\AGRastrigin\AGRastrigin\bin\Release\netcoreapp2.0\AGRastrigin.dll
+C:\Users\vinic\source\repos\AGRastrigin\AGRastrigin\bin\Release\netcoreapp2.0\AGRastrigin.pdb
+C:\Users\vinic\source\repos\AGRastrigin\AGRastrigin\obj\Release\netcoreapp2.0\AGRastrigin.csproj.CoreCompileInputs.cache
+C:\Users\vinic\source\repos\AGRastrigin\AGRastrigin\obj\Release\netcoreapp2.0\AGRastrigin.AssemblyInfoInputs.cache
+C:\Users\vinic\source\repos\AGRastrigin\AGRastrigin\obj\Release\netcoreapp2.0\AGRastrigin.AssemblyInfo.cs
+C:\Users\vinic\source\repos\AGRastrigin\AGRastrigin\obj\Release\netcoreapp2.0\AGRastrigin.dll
+C:\Users\vinic\source\repos\AGRastrigin\AGRastrigin\obj\Release\netcoreapp2.0\AGRastrigin.pdb
+C:\Users\vinic\source\repos\AGRastrigin\AGRastrigin\obj\Release\netcoreapp2.0\AGRastrigin.csprojResolveAssemblyReference.cache
