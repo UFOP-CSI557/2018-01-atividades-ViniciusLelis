@@ -18,6 +18,9 @@ public class DEReal implements Metodo {
     private Double F;
     // Coeficiente de Crossover
     private Double Cr;
+    
+    private Individuo melhorIndividuo;
+    private Individuo piorIndividuo;
 
     public DEReal(Double minimo, Double maximo, Problema problema, Integer gmax, Integer D, Integer Np, Double F, Double Cr) {
         this.minimo = minimo;
@@ -173,6 +176,9 @@ public class DEReal implements Metodo {
                     + melhorSolucao.getFuncaoObjetivo());
 
         }
+        
+        melhorIndividuo = melhorSolucao;
+        piorIndividuo = populacao.getPiorIndividuo();
 
         return melhorSolucao;
 
@@ -224,6 +230,22 @@ public class DEReal implements Metodo {
             valor = this.maximo;
         }
         return valor;
+    }
+
+    public Individuo getMelhorIndividuo() {
+        return melhorIndividuo;
+    }
+
+    public void setMelhorIndividuo(Individuo melhorIndividuo) {
+        this.melhorIndividuo = melhorIndividuo;
+    }
+
+    public Individuo getPiorIndividuo() {
+        return piorIndividuo;
+    }
+
+    public void setPiorIndividuo(Individuo piorIndividuo) {
+        this.piorIndividuo = piorIndividuo;
     }
 
 }

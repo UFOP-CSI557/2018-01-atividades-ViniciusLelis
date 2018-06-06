@@ -42,6 +42,10 @@ public abstract class Populacao<T> {
     public Individuo getMelhorIndividuo() {
         return Collections.min(this.individuos);
     }    
+    
+    public Individuo getPiorIndividuo() {
+        return Collections.max(this.individuos);
+    }
 
     abstract void criar();
     

@@ -16,6 +16,9 @@ public class ESReal implements Metodo {
     private Integer lambda; // numero de descendentes
     private Integer geracoes; // criterio de parada
     private Double pMutacao; // mutacao - aplicacao ao descendente - variacao/perturbacao
+    
+    private Individuo melhorIndividuo;
+    private Individuo piorIndividuo;
 
     public ESReal(Double minimo, Double maximo, Integer nVariaveis, Problema problema, Integer mu, Integer lambda, Integer geracoes, Double pMutacao) {
         this.minimo = minimo;
@@ -85,6 +88,9 @@ public class ESReal implements Metodo {
                     + populacao.getMelhorIndividuo().getFuncaoObjetivo());
         }
         // Retornar o melhor individuo
+        melhorIndividuo = populacao.getMelhorIndividuo();
+        piorIndividuo = populacao.getPiorIndividuo();
+        
         return populacao.getMelhorIndividuo();
     }
 
@@ -115,6 +121,22 @@ public class ESReal implements Metodo {
             }
         }
 
+    }
+
+    public Individuo getMelhorIndividuo() {
+        return melhorIndividuo;
+    }
+
+    public void setMelhorIndividuo(Individuo melhorIndividuo) {
+        this.melhorIndividuo = melhorIndividuo;
+    }
+
+    public Individuo getPiorIndividuo() {
+        return piorIndividuo;
+    }
+
+    public void setPiorIndividuo(Individuo piorIndividuo) {
+        this.piorIndividuo = piorIndividuo;
     }
 
 }
